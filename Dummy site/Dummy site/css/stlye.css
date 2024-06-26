@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 50px;
+    background-image: linear-gradient(to right bottom, #000000, #141113, #201c20, #2a272e, #32333e);
+}
+
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    font-size: 20px;
+    color: azure;
+}
+
+.nav ul{
+    position: absolute;
+    right: 5px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-right: 7px;
+    margin-left: 3px;
+}
+
+.nav ul a{
+    color: azure;
+    padding: 5px;
+}
+
+.move:hover{
+    color: grey;
+}
+
+.home{
+    background-image: url(/images/dark-gray.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.home .text-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: rgba(163, 182, 182, 0.905);
+}
+
+.about{
+    background-image: url(/images/dark-gray.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.about .about-content{
+    margin: 150px auto 0 auto;
+    width: 500px;
+}
+
+.about .about-content h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(163, 182, 182, 0.905);
+}
+
+.about .about-content p{
+    text-align: justify;
+    font-family: 'lato', sans-serif;
+    color: azure;
+}
+
+.services-con{
+    background-color:#000000;
+    padding: 7px;
+}
+
+.services-con h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgba(163, 182, 182, 0.905);
+}
+
+.services-con .card-container{
+    text-align: center;
+    margin: 80px auto 0 auto;
+}
+
+.services-con .card-container ul{
+    padding: 0;
+}
+
+.services-con .card-container ul li{
+    display: inline-block;
+    margin: 20px;
+    width: 300pt;
+    height: auto;
+    list-style: none;
+}
+
+.services-con .card-container ul li p{
+    text-align: justify;
+    font-family: 'lato', sans-serif;
+    color: azure;
+    overflow: auto;
+}
+
+.services{
+    text-align: center;
+    background-image: url(/images/dark-gray.jpg);
+    background-size: cover;
+    height: 100vh, auto;
+}
+
+.services .services-content{
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.services .services-content h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(163, 182, 182, 0.905);
+}
+
+.services-content .card-container ul{
+    padding: 0;
+}
+
+.services-content .card-container ul li{
+    display: inline-block;
+    margin: 20px;
+    width: 300pt;
+    height: auto;
+    list-style: none;
+}
+
+.services-content .card-container ul li p{
+    text-align: justify;
+    font-family: 'lato', sans-serif;
+    color: azure;
+}
+
+.contact{
+    background-image: url(/images/dark-gray.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.contact .contact-content{
+    text-align: center;
+    margin: 80px auto 0 auto;
+    color: azure;
+}
+
+.contact .contact-content h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(163, 182, 182, 0.905);
+}
+
+.contact .contact-content .address-holder{
+    font-family: 'lato', sans-serif;
+}
