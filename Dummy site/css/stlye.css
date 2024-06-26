@@ -8,7 +8,7 @@ body{
 
 .nav{
     height: 50px;
-    background-image: linear-gradient(to right, #051937, #002c49, #003f4d, #005043, #215e30);
+    background-image: linear-gradient(to right bottom, #000000, #141113, #201c20, #2a272e, #32333e);
 }
 
 .nav div{
@@ -34,6 +34,7 @@ ul{
 .nav ul li{
     display: inline-block;
     margin-right: 7px;
+    margin-left: 3px;
 }
 
 .nav ul a{
@@ -46,7 +47,7 @@ ul{
 }
 
 .home{
-    background-image: linear-gradient(to right, #051937, #002c49, #003f4d, #005043, #215e30);
+    background-image: url(/images/dark-gray.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -57,11 +58,11 @@ ul{
     align-items: center;
     justify-content: center;
     height: 90vh;
-    color: rgba(128, 244, 244, 0.905);
+    color: rgba(163, 182, 182, 0.905);
 }
 
 .about{
-     background-image: linear-gradient(to right, #051937, #002c49, #003f4d, #005043, #215e30);
+    background-image: url(/images/dark-gray.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -74,7 +75,7 @@ ul{
 .about .about-content h1{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    color:  rgba(128, 244, 244, 0.905);
+    color: rgba(163, 182, 182, 0.905);
 }
 
 .about .about-content p{
@@ -83,9 +84,44 @@ ul{
     color: azure;
 }
 
+.services-con{
+    background-color:#000000;
+    padding: 7px;
+}
+
+.services-con h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgba(163, 182, 182, 0.905);
+}
+
+.services-con .card-container{
+    text-align: center;
+    margin: 80px auto 0 auto;
+}
+
+.services-con .card-container ul{
+    padding: 0;
+}
+
+.services-con .card-container ul li{
+    display: inline-block;
+    margin: 20px;
+    width: 300pt;
+    height: auto;
+    list-style: none;
+}
+
+.services-con .card-container ul li p{
+    text-align: justify;
+    font-family: 'lato', sans-serif;
+    color: azure;
+    overflow: auto;
+}
+
 .services{
     text-align: center;
-    background-image: linear-gradient(to right, #051937, #002c49, #003f4d, #005043, #215e30);
+    background-image: url(/images/dark-gray.jpg);
     background-size: cover;
     height: 100vh, auto;
 }
@@ -97,7 +133,7 @@ ul{
 
 .services .services-content h1{
     font-family: 'Roboto', sans-serif;
-    color:  rgba(128, 244, 244, 0.905);
+    color: rgba(163, 182, 182, 0.905);
 }
 
 .services-content .card-container ul{
@@ -119,7 +155,7 @@ ul{
 }
 
 .contact{
-    background-image: linear-gradient(to right bottom, #051937, #002c49, #003f4d, #005043, #215e30);;
+    background-image: url(/images/dark-gray.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -132,7 +168,7 @@ ul{
 
 .contact .contact-content h1{
     font-family: 'Roboto', sans-serif;
-    color: rgba(128, 244, 244, 0.905);
+    color: rgba(163, 182, 182, 0.905);
 }
 
 .contact .contact-content .address-holder{
