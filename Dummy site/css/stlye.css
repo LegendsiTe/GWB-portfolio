@@ -50,6 +50,7 @@ ul{
     background-image: url(/images/dark-gray.jpg);
     background-size: cover;
     height: 100vh;
+    border-color: #000000e9;
 }
 
 .home .text-container{
@@ -59,6 +60,8 @@ ul{
     justify-content: center;
     height: 90vh;
     color: rgba(163, 182, 182, 0.905);
+    border-bottom: #000000e9;
+    margin-bottom: 0;
 }
 
 .about{
@@ -85,7 +88,7 @@ ul{
 }
 
 .services-con{
-    background-color:#000000;
+    background-color:#000000e9;
     padding: 7px;
 }
 
@@ -101,13 +104,15 @@ ul{
 }
 
 .services-con .card-container ul{
-    padding: 0;
+    padding: 1px;
+    border: #cfd0d7;
+
 }
 
 .services-con .card-container ul li{
     display: inline-block;
-    margin: 20px;
-    width: 300pt;
+    margin: 20px 10px 10px;
+    width: 270pt;
     height: auto;
     list-style: none;
 }
@@ -173,4 +178,39 @@ ul{
 
 .contact .contact-content .address-holder{
     font-family: 'lato', sans-serif;
+}
+
+.portfolio{
+    text-align: center;
+    background-image: url(/images/dark-gray.jpg);
+    background-size: cover;
+    height: 100vh, auto;
+}
+
+.portfolio .portfolio-con{
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.portfolio .portfolio-con h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(163, 182, 182, 0.905);
+}
+
+.portfolio .portfolio-con{
+    padding: 0;
+}
+
+.portfolio .portfolio-con .content-contain ul li{
+    display: inline-block;
+    margin: 0px;
+    width: 300pt;
+    height: auto;
+    list-style: none;
+}
+
+.portfolio .portfolio-con .content-contain li p{
+    text-align: justify;
+    font-family: 'lato', sans-serif;
+    color: azure;
 }
